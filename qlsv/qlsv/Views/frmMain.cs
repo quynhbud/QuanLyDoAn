@@ -222,6 +222,7 @@ namespace qlsv.views
         {
             this.DisableMenu();
             this.EnableLogin();
+            this.DisableUser();
             MessageBox.Show("Đăng xuất thành công!");
         }
     }
