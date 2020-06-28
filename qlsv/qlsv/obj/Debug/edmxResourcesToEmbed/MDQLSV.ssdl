@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBDOANWINModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Khoa">
+    <Key>
+      <PropertyRef Name="Ma khoa" />
+    </Key>
+    <Property Name="Ma khoa" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ten khoa" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Lop">
+    <Key>
+      <PropertyRef Name="Ma lop" />
+    </Key>
+    <Property Name="Ma lop" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Lop" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ma khoa" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Nganh">
+    <Key>
+      <PropertyRef Name="Ma nganh" />
+    </Key>
+    <Property Name="Ma nganh" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Chuyen nganh" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ma khoa" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="QLDA">
+    <Key>
+      <PropertyRef Name="Ma ĐA" />
+    </Key>
+    <Property Name="Ma ĐA" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ten Đo an" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="The loai" Type="nvarchar" MaxLength="50" />
+    <Property Name="Khoa" Type="nvarchar" MaxLength="50" />
+    <Property Name="chuyen nganh" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="QLDASV">
+    <Key>
+      <PropertyRef Name="Ma SV" />
+    </Key>
+    <Property Name="Ma SV" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ho va Ten" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ma do an" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ten do an" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="The loai" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ma GV" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="GV huong dan" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ngay bat dau" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Tien do" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="QLGV">
+    <Key>
+      <PropertyRef Name="Ma GV" />
+    </Key>
+    <Property Name="Ma GV" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ho va ten GV" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ngay sinh" Type="nvarchar" MaxLength="50" />
+    <Property Name="Dia chi" Type="nvarchar" MaxLength="50" />
+    <Property Name="Gioi tinh" Type="nvarchar" MaxLength="50" />
+    <Property Name="Khoa" Type="nvarchar" MaxLength="50" />
+    <Property Name="Nganh" Type="nvarchar" MaxLength="50" />
+    <Property Name="SĐT" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="QLSV">
+    <Key>
+      <PropertyRef Name="Ma SV" />
+    </Key>
+    <Property Name="Ma SV" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ho va ten" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Nganh sinh" Type="nvarchar" MaxLength="50" />
+    <Property Name="Gioi tinh" Type="nvarchar" MaxLength="50" />
+    <Property Name="Dia chi" Type="nvarchar" MaxLength="50" />
+    <Property Name="Khoa" Type="nvarchar" MaxLength="50" />
+    <Property Name="Lop" Type="nvarchar" MaxLength="50" />
+    <Property Name="Nganh" Type="nvarchar" MaxLength="50" />
+    <Property Name="SĐT" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="QLUser">
+    <Key>
+      <PropertyRef Name="Ten dang nhap" />
+    </Key>
+    <Property Name="Ten dang nhap" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Mat khau" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Quyen han" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="The_Loai">
+    <Key>
+      <PropertyRef Name="Ma TL" />
+    </Key>
+    <Property Name="Ma TL" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ten TL" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_QLDASV_QLDA">
+    <End Role="QLDA" Type="Self.QLDA" Multiplicity="1" />
+    <End Role="QLDASV" Type="Self.QLDASV" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="QLDA">
+        <PropertyRef Name="Ma ĐA" />
+      </Principal>
+      <Dependent Role="QLDASV">
+        <PropertyRef Name="Ma do an" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_QLDASV_QLGV">
+    <End Role="QLGV" Type="Self.QLGV" Multiplicity="1" />
+    <End Role="QLDASV" Type="Self.QLDASV" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="QLGV">
+        <PropertyRef Name="Ma GV" />
+      </Principal>
+      <Dependent Role="QLDASV">
+        <PropertyRef Name="Ma GV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_QLDASV_QLSV">
+    <End Role="QLSV" Type="Self.QLSV" Multiplicity="1" />
+    <End Role="QLDASV" Type="Self.QLDASV" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="QLSV">
+        <PropertyRef Name="Ma SV" />
+      </Principal>
+      <Dependent Role="QLDASV">
+        <PropertyRef Name="Ma SV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="Getkhoa" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="DBDOANWINModelStoreContainer">
+    <EntitySet Name="Khoa" EntityType="Self.Khoa" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Lop" EntityType="Self.Lop" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Nganh" EntityType="Self.Nganh" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="QLDA" EntityType="Self.QLDA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="QLDASV" EntityType="Self.QLDASV" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="QLGV" EntityType="Self.QLGV" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="QLSV" EntityType="Self.QLSV" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="QLUser" EntityType="Self.QLUser" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="The_Loai" EntityType="Self.The_Loai" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_QLDASV_QLDA" Association="Self.FK_QLDASV_QLDA">
+      <End Role="QLDA" EntitySet="QLDA" />
+      <End Role="QLDASV" EntitySet="QLDASV" />
+    </AssociationSet>
+    <AssociationSet Name="FK_QLDASV_QLGV" Association="Self.FK_QLDASV_QLGV">
+      <End Role="QLGV" EntitySet="QLGV" />
+      <End Role="QLDASV" EntitySet="QLDASV" />
+    </AssociationSet>
+    <AssociationSet Name="FK_QLDASV_QLSV" Association="Self.FK_QLDASV_QLSV">
+      <End Role="QLSV" EntitySet="QLSV" />
+      <End Role="QLDASV" EntitySet="QLDASV" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

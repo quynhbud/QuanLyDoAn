@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8ba0a5f1bd5d4f6f92a4b353eb0cf6f6" Name="Diagram1" ZoomLevel="55">
+        <EntityTypeShape EntityType="DBDOANWINModel.Khoa" Width="1.5" PointX="0.75" PointY="5.75" />
+        <EntityTypeShape EntityType="DBDOANWINModel.Lop" Width="1.5" PointX="5.25" PointY="3.75" />
+        <EntityTypeShape EntityType="DBDOANWINModel.Nganh" Width="1.5" PointX="3" PointY="5.375" />
+        <EntityTypeShape EntityType="DBDOANWINModel.QLDA" Width="1.5" PointX="8.25" PointY="7.375" />
+        <EntityTypeShape EntityType="DBDOANWINModel.QLDASV" Width="1.5" PointX="10.5" PointY="6.875" />
+        <EntityTypeShape EntityType="DBDOANWINModel.QLGV" Width="1.5" PointX="5.25" PointY="6.875" />
+        <EntityTypeShape EntityType="DBDOANWINModel.QLSV" Width="1.5" PointX="7.5" PointY="3.375" />
+        <EntityTypeShape EntityType="DBDOANWINModel.QLUser" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DBDOANWINModel.The_Loai" Width="1.5" PointX="6" PointY="10.75" />
+        <EntityTypeShape EntityType="DBDOANWINModel.Tien_do" Width="1.5" PointX="12.75" PointY="7.375" />
+        <AssociationConnector Association="DBDOANWINModel.FK_Nganh_Khoa" />
+        <AssociationConnector Association="DBDOANWINModel.FK_Lop_Nganh" />
+        <AssociationConnector Association="DBDOANWINModel.FK_QLSV_Lop" />
+        <AssociationConnector Association="DBDOANWINModel.FK_QLDA_Nganh" />
+        <AssociationConnector Association="DBDOANWINModel.FK_QLGV_Nganh" />
+        <AssociationConnector Association="DBDOANWINModel.FK_QLDA_The_Loai" />
+        <AssociationConnector Association="DBDOANWINModel.FK_QLDASV_QLDA" />
+        <AssociationConnector Association="DBDOANWINModel.FK_Tien_do_QLDASV" />
+        <EntityTypeShape EntityType="DBDOANWINModel.sysdiagram" Width="1.5" PointX="3.375" PointY="0.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DBDOANWINModelStoreContainer" CdmEntityContainer="DBDOANWINEntities3">
+    <EntitySetMapping Name="Khoas">
+      <EntityTypeMapping TypeName="DBDOANWINModel.Khoa">
+        <MappingFragment StoreEntitySet="Khoa">
+          <ScalarProperty Name="Ma_khoa" ColumnName="Ma khoa" />
+          <ScalarProperty Name="Ten_khoa" ColumnName="Ten khoa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Lops">
+      <EntityTypeMapping TypeName="DBDOANWINModel.Lop">
+        <MappingFragment StoreEntitySet="Lop">
+          <ScalarProperty Name="Ma_nganh" ColumnName="Ma nganh" />
+          <ScalarProperty Name="Ma_lop" ColumnName="Ma lop" />
+          <ScalarProperty Name="Lop1" ColumnName="Lop" />
+          <ScalarProperty Name="Ma_khoa" ColumnName="Ma khoa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Nganhs">
+      <EntityTypeMapping TypeName="DBDOANWINModel.Nganh">
+        <MappingFragment StoreEntitySet="Nganh">
+          <ScalarProperty Name="Ma_nganh" ColumnName="Ma nganh" />
+          <ScalarProperty Name="Chuyen_nganh" ColumnName="Chuyen nganh" />
+          <ScalarProperty Name="Ma_khoa" ColumnName="Ma khoa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QLDAs">
+      <EntityTypeMapping TypeName="DBDOANWINModel.QLDA">
+        <MappingFragment StoreEntitySet="QLDA">
+          <ScalarProperty Name="Ma_ĐA" ColumnName="Ma ĐA" />
+          <ScalarProperty Name="Ten_Đo_an" ColumnName="Ten Đo an" />
+          <ScalarProperty Name="The_loai" ColumnName="The loai" />
+          <ScalarProperty Name="Khoa" ColumnName="Khoa" />
+          <ScalarProperty Name="chuyen_nganh" ColumnName="chuyen nganh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QLDASVs">
+      <EntityTypeMapping TypeName="DBDOANWINModel.QLDASV">
+        <MappingFragment StoreEntitySet="QLDASV">
+          <ScalarProperty Name="Ma_SV" ColumnName="Ma SV" />
+          <ScalarProperty Name="Ho_va_Ten" ColumnName="Ho va Ten" />
+          <ScalarProperty Name="Ma_do_an" ColumnName="Ma do an" />
+          <ScalarProperty Name="Ten_do_an" ColumnName="Ten do an" />
+          <ScalarProperty Name="The_loai" ColumnName="The loai" />
+          <ScalarProperty Name="Ma_GV" ColumnName="Ma GV" />
+          <ScalarProperty Name="GV_huong_dan" ColumnName="GV huong dan" />
+          <ScalarProperty Name="Ngay_bat_dau" ColumnName="Ngay bat dau" />
+          <ScalarProperty Name="Tien_do" ColumnName="Tien do" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QLGVs">
+      <EntityTypeMapping TypeName="DBDOANWINModel.QLGV">
+        <MappingFragment StoreEntitySet="QLGV">
+          <ScalarProperty Name="Ma_GV" ColumnName="Ma GV" />
+          <ScalarProperty Name="Ho_va_ten_GV" ColumnName="Ho va ten GV" />
+          <ScalarProperty Name="Ngay_sinh" ColumnName="Ngay sinh" />
+          <ScalarProperty Name="Dia_chi" ColumnName="Dia chi" />
+          <ScalarProperty Name="Gioi_tinh" ColumnName="Gioi tinh" />
+          <ScalarProperty Name="Khoa" ColumnName="Khoa" />
+          <ScalarProperty Name="Nganh" ColumnName="Nganh" />
+          <ScalarProperty Name="SĐT" ColumnName="SĐT" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QLSVs">
+      <EntityTypeMapping TypeName="DBDOANWINModel.QLSV">
+        <MappingFragment StoreEntitySet="QLSV">
+          <ScalarProperty Name="Ngay_sinh" ColumnName="Ngay sinh" />
+          <ScalarProperty Name="Ma_SV" ColumnName="Ma SV" />
+          <ScalarProperty Name="Ho_va_ten" ColumnName="Ho va ten" />
+          <ScalarProperty Name="Gioi_tinh" ColumnName="Gioi tinh" />
+          <ScalarProperty Name="Dia_chi" ColumnName="Dia chi" />
+          <ScalarProperty Name="Khoa" ColumnName="Khoa" />
+          <ScalarProperty Name="Lop" ColumnName="Lop" />
+          <ScalarProperty Name="Nganh" ColumnName="Nganh" />
+          <ScalarProperty Name="SĐT" ColumnName="SĐT" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QLUsers">
+      <EntityTypeMapping TypeName="DBDOANWINModel.QLUser">
+        <MappingFragment StoreEntitySet="QLUser">
+          <ScalarProperty Name="Ten_dang_nhap" ColumnName="Ten dang nhap" />
+          <ScalarProperty Name="Mat_khau" ColumnName="Mat khau" />
+          <ScalarProperty Name="Quyen_han" ColumnName="Quyen han" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="DBDOANWINModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="The_Loai">
+      <EntityTypeMapping TypeName="DBDOANWINModel.The_Loai">
+        <MappingFragment StoreEntitySet="The_Loai">
+          <ScalarProperty Name="Ma_TL" ColumnName="Ma TL" />
+          <ScalarProperty Name="Ten_TL" ColumnName="Ten TL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

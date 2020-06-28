@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBDOANWINModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Khoa">
+    <Key>
+      <PropertyRef Name="Ma khoa" />
+    </Key>
+    <Property Name="Ma khoa" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ten khoa" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Lop">
+    <Key>
+      <PropertyRef Name="Ma lop" />
+    </Key>
+    <Property Name="Ma lop" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Lop" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ma Nganh" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Nganh">
+    <Key>
+      <PropertyRef Name="Ma nganh" />
+    </Key>
+    <Property Name="Ma nganh" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Chuyen nganh" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ma khoa" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="QLDA">
+    <Key>
+      <PropertyRef Name="Ma ĐA" />
+    </Key>
+    <Property Name="Ma ĐA" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ten ĐA" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="The loai" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Chuyen nganh" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="QLDASV">
+    <Key>
+      <PropertyRef Name="Ma SV" />
+      <PropertyRef Name="Ma DA" />
+      <PropertyRef Name="Ma GV" />
+    </Key>
+    <Property Name="Ma SV" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ten SV" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ma DA" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ten DA" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ma GV" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ten GV" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="The loai" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ngay bat dau" Type="nvarchar" MaxLength="50" />
+    <Property Name="Tien do" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="QLGV">
+    <Key>
+      <PropertyRef Name="Ma GV" />
+    </Key>
+    <Property Name="Ma GV" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ten GV" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Gioi tinh" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ngay sinh" Type="nvarchar" MaxLength="50" />
+    <Property Name="Dia chi" Type="nvarchar" MaxLength="50" />
+    <Property Name="SĐT" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Nganh" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="QLSV">
+    <Key>
+      <PropertyRef Name="Ma SV" />
+    </Key>
+    <Property Name="Ma SV" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ten SV" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Gioi tinh" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ngay sinh" Type="nvarchar" MaxLength="50" />
+    <Property Name="Lop" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Dia chi" Type="nvarchar" MaxLength="50" />
+    <Property Name="SĐT" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="QLUser">
+    <Key>
+      <PropertyRef Name="Ten dang nhap" />
+    </Key>
+    <Property Name="Ten dang nhap" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Mat khau" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Quyen han" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="The_Loai">
+    <Key>
+      <PropertyRef Name="Ma TL" />
+    </Key>
+    <Property Name="Ma TL" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ten TL" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Lop_Nganh">
+    <End Role="Nganh" Type="Self.Nganh" Multiplicity="1" />
+    <End Role="Lop" Type="Self.Lop" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Nganh">
+        <PropertyRef Name="Ma nganh" />
+      </Principal>
+      <Dependent Role="Lop">
+        <PropertyRef Name="Ma Nganh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Nganh_Khoa">
+    <End Role="Khoa" Type="Self.Khoa" Multiplicity="1" />
+    <End Role="Nganh" Type="Self.Nganh" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Khoa">
+        <PropertyRef Name="Ma khoa" />
+      </Principal>
+      <Dependent Role="Nganh">
+        <PropertyRef Name="Ma khoa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_QLDA_Nganh">
+    <End Role="Nganh" Type="Self.Nganh" Multiplicity="1" />
+    <End Role="QLDA" Type="Self.QLDA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Nganh">
+        <PropertyRef Name="Ma nganh" />
+      </Principal>
+      <Dependent Role="QLDA">
+        <PropertyRef Name="Chuyen nganh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_QLDA_The_Loai">
+    <End Role="The_Loai" Type="Self.The_Loai" Multiplicity="1" />
+    <End Role="QLDA" Type="Self.QLDA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="The_Loai">
+        <PropertyRef Name="Ma TL" />
+      </Principal>
+      <Dependent Role="QLDA">
+        <PropertyRef Name="The loai" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_QLDASV_QLSV">
+    <End Role="QLSV" Type="Self.QLSV" Multiplicity="1" />
+    <End Role="QLDASV" Type="Self.QLDASV" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="QLSV">
+        <PropertyRef Name="Ma SV" />
+      </Principal>
+      <Dependent Role="QLDASV">
+        <PropertyRef Name="Ma SV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_QLGV_Nganh">
+    <End Role="Nganh" Type="Self.Nganh" Multiplicity="1" />
+    <End Role="QLGV" Type="Self.QLGV" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Nganh">
+        <PropertyRef Name="Ma nganh" />
+      </Principal>
+      <Dependent Role="QLGV">
+        <PropertyRef Name="Nganh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_QLSV_Lop">
+    <End Role="Lop" Type="Self.Lop" Multiplicity="1" />
+    <End Role="QLSV" Type="Self.QLSV" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Lop">
+        <PropertyRef Name="Ma lop" />
+      </Principal>
+      <Dependent Role="QLSV">
+        <PropertyRef Name="Lop" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DBDOANWINModelStoreContainer">
+    <EntitySet Name="Khoa" EntityType="Self.Khoa" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Lop" EntityType="Self.Lop" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Nganh" EntityType="Self.Nganh" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="QLDA" EntityType="Self.QLDA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="QLDASV" EntityType="Self.QLDASV" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="QLGV" EntityType="Self.QLGV" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="QLSV" EntityType="Self.QLSV" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="QLUser" EntityType="Self.QLUser" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="The_Loai" EntityType="Self.The_Loai" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Lop_Nganh" Association="Self.FK_Lop_Nganh">
+      <End Role="Nganh" EntitySet="Nganh" />
+      <End Role="Lop" EntitySet="Lop" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Nganh_Khoa" Association="Self.FK_Nganh_Khoa">
+      <End Role="Khoa" EntitySet="Khoa" />
+      <End Role="Nganh" EntitySet="Nganh" />
+    </AssociationSet>
+    <AssociationSet Name="FK_QLDA_Nganh" Association="Self.FK_QLDA_Nganh">
+      <End Role="Nganh" EntitySet="Nganh" />
+      <End Role="QLDA" EntitySet="QLDA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_QLDA_The_Loai" Association="Self.FK_QLDA_The_Loai">
+      <End Role="The_Loai" EntitySet="The_Loai" />
+      <End Role="QLDA" EntitySet="QLDA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_QLDASV_QLSV" Association="Self.FK_QLDASV_QLSV">
+      <End Role="QLSV" EntitySet="QLSV" />
+      <End Role="QLDASV" EntitySet="QLDASV" />
+    </AssociationSet>
+    <AssociationSet Name="FK_QLGV_Nganh" Association="Self.FK_QLGV_Nganh">
+      <End Role="Nganh" EntitySet="Nganh" />
+      <End Role="QLGV" EntitySet="QLGV" />
+    </AssociationSet>
+    <AssociationSet Name="FK_QLSV_Lop" Association="Self.FK_QLSV_Lop">
+      <End Role="Lop" EntitySet="Lop" />
+      <End Role="QLSV" EntitySet="QLSV" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

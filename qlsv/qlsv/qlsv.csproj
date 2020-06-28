@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C48E6C4C-34AF-47F3-ADF8-4FD91F17B51E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>qlsv</RootNamespace>
+    <AssemblyName>qlsv</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\ProjectController.cs" />
+    <Compile Include="Controllers\Project_StudentController.cs" />
+    <Compile Include="Controllers\StudentController.cs" />
+    <Compile Include="Controllers\TeacherController.cs" />
+    <Compile Include="Models\sysdiagram.cs">
+      <DependentUpon>MDDOANWIN.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Tien_do.cs">
+      <DependentUpon>MDDOANWIN.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmabout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmabout.Designer.cs">
+      <DependentUpon>frmabout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmAddDa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmAddDa.Designer.cs">
+      <DependentUpon>frmAddDa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmAddDoanSV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmAddDoanSV.Designer.cs">
+      <DependentUpon>frmAddDoanSV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmAddGV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmAddGV.Designer.cs">
+      <DependentUpon>frmAddGV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmAddSV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmAddSV.Designer.cs">
+      <DependentUpon>frmAddSV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmAddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmAddUser.Designer.cs">
+      <DependentUpon>frmAddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmChitietdoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmChitietdoan.Designer.cs">
+      <DependentUpon>frmChitietdoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmChitietGV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmChitietGV.Designer.cs">
+      <DependentUpon>frmChitietGV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmChitietsv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmChitietsv.Designer.cs">
+      <DependentUpon>frmChitietsv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmDoanSV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmDoanSV.Designer.cs">
+      <DependentUpon>frmDoanSV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmInforDoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmInforDoan.Designer.cs">
+      <DependentUpon>frmInforDoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmInforStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmInforStudent.Designer.cs">
+      <DependentUpon>frmInforStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmInforTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmInforTeacher.Designer.cs">
+      <DependentUpon>frmInforTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmKhoa-Nganh-Bomon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmKhoa-Nganh-Bomon.Designer.cs">
+      <DependentUpon>frmKhoa-Nganh-Bomon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmKhoa-Nganh-Theloai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmKhoa-Nganh-Theloai.Designer.cs">
+      <DependentUpon>frmKhoa-Nganh-Theloai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmlop-khoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmlop-khoa.Designer.cs">
+      <DependentUpon>frmlop-khoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmQLUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmQLUser.Designer.cs">
+      <DependentUpon>frmQLUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmSearchDoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmSearchDoan.Designer.cs">
+      <DependentUpon>frmSearchDoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmSearchGV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmSearchGV.Designer.cs">
+      <DependentUpon>frmSearchGV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmSearchSV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmSearchSV.Designer.cs">
+      <DependentUpon>frmSearchSV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmSuaUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmSuaUser.Designer.cs">
+      <DependentUpon>frmSuaUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Khoa.cs">
+      <DependentUpon>MDDOANWIN.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Lop.cs">
+      <DependentUpon>MDDOANWIN.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MDDOANWIN.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MDDOANWIN.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MDDOANWIN.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MDDOANWIN.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MDDOANWIN.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MDDOANWIN.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Nganh.cs">
+      <DependentUpon>MDDOANWIN.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\QLDA.cs">
+      <DependentUpon>MDDOANWIN.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\QLDASV.cs">
+      <DependentUpon>MDDOANWIN.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\QLGV.cs">
+      <DependentUpon>MDDOANWIN.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\QLSV.cs">
+      <DependentUpon>MDDOANWIN.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\QLUser.cs">
+      <DependentUpon>MDDOANWIN.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\The_Loai.cs">
+      <DependentUpon>MDDOANWIN.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\frmSearchDaSv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmSearchDaSv.Designer.cs">
+      <DependentUpon>frmSearchDaSv.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Views\frmabout.resx">
+      <DependentUpon>frmabout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmAddDa.resx">
+      <DependentUpon>frmAddDa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmAddDoanSV.resx">
+      <DependentUpon>frmAddDoanSV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmAddgv.resx">
+      <DependentUpon>frmAddGV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmAddSV.resx">
+      <DependentUpon>frmAddSV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmAddUser.resx">
+      <DependentUpon>frmAddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmChitietdoan.resx">
+      <DependentUpon>frmChitietdoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmChitietGV.resx">
+      <DependentUpon>frmChitietGV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmChitietsv.resx">
+      <DependentUpon>frmChitietsv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmDoanSV.resx">
+      <DependentUpon>frmDoanSV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmInforDoan.resx">
+      <DependentUpon>frmInforDoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmInforStudent.resx">
+      <DependentUpon>frmInforStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmInforTeacher.resx">
+      <DependentUpon>frmInforTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmKhoa-Nganh-Bomon.resx">
+      <DependentUpon>frmKhoa-Nganh-Bomon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmKhoa-Nganh-Theloai.resx">
+      <DependentUpon>frmKhoa-Nganh-Theloai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmlop-khoa.resx">
+      <DependentUpon>frmlop-khoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmQLUser.resx">
+      <DependentUpon>frmQLUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmSearchDoan.resx">
+      <DependentUpon>frmSearchDoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmSearchGV.resx">
+      <DependentUpon>frmSearchGV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmSearchSV.resx">
+      <DependentUpon>frmSearchSV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmSuaUser.resx">
+      <DependentUpon>frmSuaUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Views\frmSearchDaSv.resx">
+      <DependentUpon>frmSearchDaSv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EntityDeploy Include="Models\MDDOANWIN.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>MDDOANWIN.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Models\MDDOANWIN.edmx.diagram">
+      <DependentUpon>MDDOANWIN.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\160317icon_login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sign-Shutdown-icon-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\82619859_1253084694885312_780421877242789888_o.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\94318156_2647418302204844_4503276328002256896_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandicam-2020-05-10-20-29-39-672.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Models\MDDOANWIN.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>MDDOANWIN.edmx</DependentUpon>
+      <LastGenOutput>MDDOANWIN.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\MDDOANWIN.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>MDDOANWIN.edmx</DependentUpon>
+      <LastGenOutput>MDDOANWIN.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

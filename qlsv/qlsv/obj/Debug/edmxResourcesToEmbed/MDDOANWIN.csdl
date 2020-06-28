@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBDOANWINModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Khoa">
+    <Key>
+      <PropertyRef Name="Ma_khoa" />
+    </Key>
+    <Property Name="Ma_khoa" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Ten_khoa" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Nganhs" Relationship="Self.FK_Nganh_Khoa" FromRole="Khoa" ToRole="Nganh" />
+  </EntityType>
+  <EntityType Name="Lop">
+    <Key>
+      <PropertyRef Name="Ma_lop" />
+    </Key>
+    <Property Name="Ma_lop" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Lop1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Ma_Nganh" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Nganh" Relationship="Self.FK_Lop_Nganh" FromRole="Lop" ToRole="Nganh" />
+    <NavigationProperty Name="QLSVs" Relationship="Self.FK_QLSV_Lop" FromRole="Lop" ToRole="QLSV" />
+  </EntityType>
+  <EntityType Name="Nganh">
+    <Key>
+      <PropertyRef Name="Ma_nganh" />
+    </Key>
+    <Property Name="Ma_nganh" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Chuyen_nganh" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Ma_khoa" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Khoa" Relationship="Self.FK_Nganh_Khoa" FromRole="Nganh" ToRole="Khoa" />
+    <NavigationProperty Name="Lops" Relationship="Self.FK_Lop_Nganh" FromRole="Nganh" ToRole="Lop" />
+    <NavigationProperty Name="QLDAs" Relationship="Self.FK_QLDA_Nganh" FromRole="Nganh" ToRole="QLDA" />
+    <NavigationProperty Name="QLGVs" Relationship="Self.FK_QLGV_Nganh" FromRole="Nganh" ToRole="QLGV" />
+  </EntityType>
+  <EntityType Name="QLDA">
+    <Key>
+      <PropertyRef Name="Ma_ĐA" />
+    </Key>
+    <Property Name="Ma_ĐA" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Ten_ĐA" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="The_loai" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Chuyen_nganh" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Nganh" Relationship="Self.FK_QLDA_Nganh" FromRole="QLDA" ToRole="Nganh" />
+    <NavigationProperty Name="The_Loai1" Relationship="Self.FK_QLDA_The_Loai" FromRole="QLDA" ToRole="The_Loai" />
+  </EntityType>
+  <EntityType Name="QLDASV">
+    <Key>
+      <PropertyRef Name="Ma_SV" />
+      <PropertyRef Name="Ma_DA" />
+      <PropertyRef Name="Ma_GV" />
+    </Key>
+    <Property Name="Ma_SV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Ten_SV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Ma_DA" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Ten_DA" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Ma_GV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Ten_GV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="The_loai" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Ngay_bat_dau" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Tien_do" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="QLSV" Relationship="Self.FK_QLDASV_QLSV" FromRole="QLDASV" ToRole="QLSV" />
+  </EntityType>
+  <EntityType Name="QLGV">
+    <Key>
+      <PropertyRef Name="Ma_GV" />
+    </Key>
+    <Property Name="Ma_GV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Ten_GV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Gioi_tinh" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Ngay_sinh" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Dia_chi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SĐT" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Nganh" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Nganh1" Relationship="Self.FK_QLGV_Nganh" FromRole="QLGV" ToRole="Nganh" />
+  </EntityType>
+  <EntityType Name="QLSV">
+    <Key>
+      <PropertyRef Name="Ma_SV" />
+    </Key>
+    <Property Name="Ma_SV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Ten_SV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Gioi_tinh" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Ngay_sinh" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Lop" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Dia_chi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SĐT" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Lop1" Relationship="Self.FK_QLSV_Lop" FromRole="QLSV" ToRole="Lop" />
+    <NavigationProperty Name="QLDASVs" Relationship="Self.FK_QLDASV_QLSV" FromRole="QLSV" ToRole="QLDASV" />
+  </EntityType>
+  <EntityType Name="QLUser">
+    <Key>
+      <PropertyRef Name="Ten_dang_nhap" />
+    </Key>
+    <Property Name="Ten_dang_nhap" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Mat_khau" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Quyen_han" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="The_Loai">
+    <Key>
+      <PropertyRef Name="Ma_TL" />
+    </Key>
+    <Property Name="Ma_TL" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Ten_TL" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="QLDAs" Relationship="Self.FK_QLDA_The_Loai" FromRole="The_Loai" ToRole="QLDA" />
+  </EntityType>
+  <Association Name="FK_Nganh_Khoa">
+    <End Role="Khoa" Type="Self.Khoa" Multiplicity="1" />
+    <End Role="Nganh" Type="Self.Nganh" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Khoa">
+        <PropertyRef Name="Ma_khoa" />
+      </Principal>
+      <Dependent Role="Nganh">
+        <PropertyRef Name="Ma_khoa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Lop_Nganh">
+    <End Role="Nganh" Type="Self.Nganh" Multiplicity="1" />
+    <End Role="Lop" Type="Self.Lop" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Nganh">
+        <PropertyRef Name="Ma_nganh" />
+      </Principal>
+      <Dependent Role="Lop">
+        <PropertyRef Name="Ma_Nganh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_QLSV_Lop">
+    <End Role="Lop" Type="Self.Lop" Multiplicity="1" />
+    <End Role="QLSV" Type="Self.QLSV" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Lop">
+        <PropertyRef Name="Ma_lop" />
+      </Principal>
+      <Dependent Role="QLSV">
+        <PropertyRef Name="Lop" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_QLDA_Nganh">
+    <End Role="Nganh" Type="Self.Nganh" Multiplicity="1" />
+    <End Role="QLDA" Type="Self.QLDA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Nganh">
+        <PropertyRef Name="Ma_nganh" />
+      </Principal>
+      <Dependent Role="QLDA">
+        <PropertyRef Name="Chuyen_nganh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_QLGV_Nganh">
+    <End Role="Nganh" Type="Self.Nganh" Multiplicity="1" />
+    <End Role="QLGV" Type="Self.QLGV" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Nganh">
+        <PropertyRef Name="Ma_nganh" />
+      </Principal>
+      <Dependent Role="QLGV">
+        <PropertyRef Name="Nganh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_QLDA_The_Loai">
+    <End Role="The_Loai" Type="Self.The_Loai" Multiplicity="1" />
+    <End Role="QLDA" Type="Self.QLDA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="The_Loai">
+        <PropertyRef Name="Ma_TL" />
+      </Principal>
+      <Dependent Role="QLDA">
+        <PropertyRef Name="The_loai" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_QLDASV_QLSV">
+    <End Role="QLSV" Type="Self.QLSV" Multiplicity="1" />
+    <End Role="QLDASV" Type="Self.QLDASV" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="QLSV">
+        <PropertyRef Name="Ma_SV" />
+      </Principal>
+      <Dependent Role="QLDASV">
+        <PropertyRef Name="Ma_SV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DBDOANWINEntities3" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Khoas" EntityType="Self.Khoa" />
+    <EntitySet Name="Lops" EntityType="Self.Lop" />
+    <EntitySet Name="Nganhs" EntityType="Self.Nganh" />
+    <EntitySet Name="QLDAs" EntityType="Self.QLDA" />
+    <EntitySet Name="QLDASVs" EntityType="Self.QLDASV" />
+    <EntitySet Name="QLGVs" EntityType="Self.QLGV" />
+    <EntitySet Name="QLSVs" EntityType="Self.QLSV" />
+    <EntitySet Name="QLUsers" EntityType="Self.QLUser" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="The_Loai" EntityType="Self.The_Loai" />
+    <AssociationSet Name="FK_Nganh_Khoa" Association="Self.FK_Nganh_Khoa">
+      <End Role="Khoa" EntitySet="Khoas" />
+      <End Role="Nganh" EntitySet="Nganhs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Lop_Nganh" Association="Self.FK_Lop_Nganh">
+      <End Role="Nganh" EntitySet="Nganhs" />
+      <End Role="Lop" EntitySet="Lops" />
+    </AssociationSet>
+    <AssociationSet Name="FK_QLSV_Lop" Association="Self.FK_QLSV_Lop">
+      <End Role="Lop" EntitySet="Lops" />
+      <End Role="QLSV" EntitySet="QLSVs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_QLDA_Nganh" Association="Self.FK_QLDA_Nganh">
+      <End Role="Nganh" EntitySet="Nganhs" />
+      <End Role="QLDA" EntitySet="QLDAs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_QLGV_Nganh" Association="Self.FK_QLGV_Nganh">
+      <End Role="Nganh" EntitySet="Nganhs" />
+      <End Role="QLGV" EntitySet="QLGVs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_QLDA_The_Loai" Association="Self.FK_QLDA_The_Loai">
+      <End Role="The_Loai" EntitySet="The_Loai" />
+      <End Role="QLDA" EntitySet="QLDAs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_QLDASV_QLSV" Association="Self.FK_QLDASV_QLSV">
+      <End Role="QLSV" EntitySet="QLSVs" />
+      <End Role="QLDASV" EntitySet="QLDASVs" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,303 @@
+C:\Users\Dell\Desktop\qlsv\qlsv\bin\Debug\qlsv.exe.config
+C:\Users\Dell\Desktop\qlsv\qlsv\bin\Debug\qlsv.exe
+C:\Users\Dell\Desktop\qlsv\qlsv\bin\Debug\qlsv.pdb
+C:\Users\Dell\Desktop\qlsv\qlsv\obj\Debug\qlsv.csprojAssemblyReference.cache
+C:\Users\Dell\Desktop\qlsv\qlsv\obj\Debug\qlsv.Properties.Resources.resources
+C:\Users\Dell\Desktop\qlsv\qlsv\obj\Debug\qlsv.csproj.GenerateResource.cache
+C:\Users\Dell\Desktop\qlsv\qlsv\obj\Debug\qlsv.exe
+C:\Users\Dell\Desktop\qlsv\qlsv\obj\Debug\qlsv.pdb
+C:\Users\Dell\Desktop\qlsv\qlsv\obj\Debug\qlsv.frmabout.resources
+C:\Users\Dell\Desktop\qlsv\qlsv\bin\Debug\EntityFramework.dll
+C:\Users\Dell\Desktop\qlsv\qlsv\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dell\Desktop\qlsv\qlsv\bin\Debug\EntityFramework.xml
+C:\Users\Dell\Desktop\qlsv\qlsv\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dell\Desktop\qlsv\qlsv\obj\Debug\qlsv.csproj.CopyComplete
+C:\Users\Dell\Desktop\qlsv\qlsv\obj\Debug\qlsv.views.frmAddDa.resources
+C:\Users\Dell\Desktop\qlsv\qlsv\obj\Debug\qlsv.views.frmAddDoanSV.resources
+C:\Users\Dell\Desktop\qlsv\qlsv\obj\Debug\qlsv.views.frmAddGV.resources
+C:\Users\Dell\Desktop\qlsv\qlsv\obj\Debug\qlsv.views.frmAddSV.resources
+C:\Users\Dell\Desktop\qlsv\qlsv\obj\Debug\qlsv.views.frmAdduser.resources
+C:\Users\Dell\Desktop\qlsv\qlsv\obj\Debug\qlsv.views.frmChitietdoan.resources
+C:\Users\Dell\Desktop\qlsv\qlsv\obj\Debug\qlsv.views.frmChitietGV.resources
+C:\Users\Dell\Desktop\qlsv\qlsv\obj\Debug\qlsv.views.frmChitietsv.resources
+C:\Users\Dell\Desktop\qlsv\qlsv\obj\Debug\qlsv.views.frmDaSV.resources
+C:\Users\Dell\Desktop\qlsv\qlsv\obj\Debug\qlsv.views.frmInforDoan.resources
+C:\Users\Dell\Desktop\qlsv\qlsv\obj\Debug\qlsv.views.frmInforStudent.resources
+C:\Users\Dell\Desktop\qlsv\qlsv\obj\Debug\qlsv.views.frmInforTeacher.resources
+C:\Users\Dell\Desktop\qlsv\qlsv\obj\Debug\qlsv.views.frmKhoa_Nganh_Bomon.resources
+C:\Users\Dell\Desktop\qlsv\qlsv\obj\Debug\qlsv.views.frmKhoa_Nganh_Theloai.resources
+C:\Users\Dell\Desktop\qlsv\qlsv\obj\Debug\qlsv.views.frmLogin.resources
+C:\Users\Dell\Desktop\qlsv\qlsv\obj\Debug\qlsv.views.frmlop_khoa.resources
+C:\Users\Dell\Desktop\qlsv\qlsv\obj\Debug\qlsv.views.frmMain.resources
+C:\Users\Dell\Desktop\qlsv\qlsv\obj\Debug\qlsv.views.frmQLUser.resources
+C:\Users\Dell\Desktop\qlsv\qlsv\obj\Debug\qlsv.views.frmSearchDoan.resources
+C:\Users\Dell\Desktop\qlsv\qlsv\obj\Debug\qlsv.views.frmSearchGV.resources
+C:\Users\Dell\Desktop\qlsv\qlsv\obj\Debug\qlsv.views.frmSearchSV.resources
+C:\Users\Dell\Desktop\qlsv\qlsv\obj\Debug\qlsv.views.frmSearchDaSv.resources
+C:\Users\Dell\Desktop\qlsv\qlsv\obj\Debug\qlsv.views.frmSuaUser.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\bin\Debug\qlsv.exe.config
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\bin\Debug\qlsv.exe
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\bin\Debug\qlsv.pdb
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\bin\Debug\EntityFramework.dll
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\bin\Debug\EntityFramework.SqlServer.dll
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\bin\Debug\EntityFramework.xml
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\bin\Debug\EntityFramework.SqlServer.xml
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\obj\Debug\qlsv.csprojAssemblyReference.cache
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\obj\Debug\qlsv.frmabout.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\obj\Debug\qlsv.views.frmAddDa.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\obj\Debug\qlsv.views.frmAddDoanSV.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\obj\Debug\qlsv.views.frmAddGV.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\obj\Debug\qlsv.views.frmAddSV.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\obj\Debug\qlsv.views.frmAdduser.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\obj\Debug\qlsv.views.frmChitietdoan.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\obj\Debug\qlsv.views.frmChitietGV.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\obj\Debug\qlsv.views.frmChitietsv.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\obj\Debug\qlsv.views.frmDaSV.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\obj\Debug\qlsv.views.frmInforDoan.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\obj\Debug\qlsv.views.frmInforStudent.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\obj\Debug\qlsv.views.frmInforTeacher.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\obj\Debug\qlsv.views.frmKhoa_Nganh_Bomon.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\obj\Debug\qlsv.views.frmKhoa_Nganh_Theloai.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\obj\Debug\qlsv.views.frmLogin.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\obj\Debug\qlsv.views.frmlop_khoa.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\obj\Debug\qlsv.views.frmMain.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\obj\Debug\qlsv.views.frmQLUser.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\obj\Debug\qlsv.views.frmSearchDoan.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\obj\Debug\qlsv.views.frmSearchGV.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\obj\Debug\qlsv.views.frmSearchSV.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\obj\Debug\qlsv.views.frmSuaUser.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\obj\Debug\qlsv.Properties.Resources.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\obj\Debug\qlsv.views.frmSearchDaSv.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\obj\Debug\qlsv.csproj.GenerateResource.cache
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\obj\Debug\qlsv.csproj.CoreCompileInputs.cache
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\obj\Debug\qlsv.csproj.CopyComplete
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\obj\Debug\qlsv.exe
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsv\qlsv\obj\Debug\qlsv.pdb
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\bin\Debug\qlsv.exe.config
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\bin\Debug\qlsv.exe
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\bin\Debug\qlsv.pdb
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\bin\Debug\EntityFramework.dll
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\bin\Debug\EntityFramework.SqlServer.dll
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\bin\Debug\EntityFramework.xml
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\bin\Debug\EntityFramework.SqlServer.xml
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\obj\Debug\qlsv.csprojAssemblyReference.cache
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\obj\Debug\qlsv.frmabout.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\obj\Debug\qlsv.views.frmAddDa.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\obj\Debug\qlsv.views.frmAddDoanSV.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\obj\Debug\qlsv.views.frmAddGV.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\obj\Debug\qlsv.views.frmAddSV.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\obj\Debug\qlsv.views.frmAdduser.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\obj\Debug\qlsv.views.frmChitietdoan.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\obj\Debug\qlsv.views.frmChitietGV.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\obj\Debug\qlsv.views.frmChitietsv.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\obj\Debug\qlsv.views.frmDaSV.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\obj\Debug\qlsv.views.frmInforDoan.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\obj\Debug\qlsv.views.frmInforStudent.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\obj\Debug\qlsv.views.frmInforTeacher.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\obj\Debug\qlsv.views.frmKhoa_Nganh_Bomon.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\obj\Debug\qlsv.views.frmKhoa_Nganh_Theloai.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\obj\Debug\qlsv.views.frmLogin.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\obj\Debug\qlsv.views.frmlop_khoa.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\obj\Debug\qlsv.views.frmMain.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\obj\Debug\qlsv.views.frmQLUser.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\obj\Debug\qlsv.views.frmSearchDoan.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\obj\Debug\qlsv.views.frmSearchGV.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\obj\Debug\qlsv.views.frmSearchSV.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\obj\Debug\qlsv.views.frmSuaUser.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\obj\Debug\qlsv.Properties.Resources.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\obj\Debug\qlsv.views.frmSearchDaSv.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\obj\Debug\qlsv.csproj.GenerateResource.cache
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\obj\Debug\qlsv.csproj.CoreCompileInputs.cache
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\obj\Debug\qlsv.csproj.CopyComplete
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\obj\Debug\qlsv.exe
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsv\qlsv\obj\Debug\qlsv.pdb
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\bin\Debug\qlsv.exe.config
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\bin\Debug\qlsv.exe
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\bin\Debug\qlsv.pdb
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\bin\Debug\EntityFramework.dll
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\bin\Debug\EntityFramework.SqlServer.dll
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\bin\Debug\EntityFramework.xml
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\bin\Debug\EntityFramework.SqlServer.xml
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.csprojAssemblyReference.cache
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.frmabout.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmAddDa.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmAddDoanSV.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmAddGV.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmAddSV.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmAdduser.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmChitietdoan.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmChitietGV.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmChitietsv.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmDaSV.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmInforDoan.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmInforStudent.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmInforTeacher.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmKhoa_Nganh_Bomon.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmKhoa_Nganh_Theloai.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmLogin.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmlop_khoa.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmMain.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmQLUser.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmSearchDoan.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmSearchGV.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmSearchSV.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmSuaUser.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.Properties.Resources.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmSearchDaSv.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.csproj.GenerateResource.cache
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.csproj.CoreCompileInputs.cache
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.csproj.CopyComplete
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.exe
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\chấm bài\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.pdb
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\bin\Debug\qlsv.exe.config
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\bin\Debug\qlsv.exe
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\bin\Debug\qlsv.pdb
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\bin\Debug\EntityFramework.dll
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\bin\Debug\EntityFramework.SqlServer.dll
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\bin\Debug\EntityFramework.xml
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\bin\Debug\EntityFramework.SqlServer.xml
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.csprojAssemblyReference.cache
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.frmabout.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmAddDa.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmAddDoanSV.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmAddGV.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmAddSV.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmAdduser.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmChitietdoan.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmChitietGV.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmChitietsv.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmDaSV.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmInforDoan.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmInforStudent.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmInforTeacher.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmKhoa_Nganh_Bomon.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmKhoa_Nganh_Theloai.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmLogin.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmlop_khoa.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmMain.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmQLUser.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmSearchDoan.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmSearchGV.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmSearchSV.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmSuaUser.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.Properties.Resources.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.views.frmSearchDaSv.resources
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.csproj.GenerateResource.cache
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.csproj.CoreCompileInputs.cache
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.csproj.CopyComplete
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.exe
+D:\Quỳnh\HK2(2019-2020)\Lập trình window\ĐỒ ÁN CUỐI KÌ\qlsvkkk\qlsv\qlsv\obj\Debug\qlsv.pdb
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\bin\Debug\qlsv.exe.config
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\bin\Debug\qlsv.exe
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\bin\Debug\qlsv.pdb
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\bin\Debug\EntityFramework.dll
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\bin\Debug\EntityFramework.xml
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\obj\Debug\qlsv.csprojAssemblyReference.cache
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\obj\Debug\qlsv.frmabout.resources
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmAddDa.resources
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmAddDoanSV.resources
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmAddGV.resources
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmAddSV.resources
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmAdduser.resources
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmChitietdoan.resources
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmChitietGV.resources
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmChitietsv.resources
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmDaSV.resources
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmInforDoan.resources
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmInforStudent.resources
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmInforTeacher.resources
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmKhoa_Nganh_Bomon.resources
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmKhoa_Nganh_Theloai.resources
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmLogin.resources
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmlop_khoa.resources
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmMain.resources
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmQLUser.resources
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmSearchDoan.resources
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmSearchGV.resources
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmSearchSV.resources
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmSuaUser.resources
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\obj\Debug\qlsv.Properties.Resources.resources
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmSearchDaSv.resources
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\obj\Debug\qlsv.csproj.GenerateResource.cache
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\obj\Debug\qlsv.csproj.CoreCompileInputs.cache
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\obj\Debug\qlsv.csproj.CopyComplete
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\obj\Debug\qlsv.exe
+C:\Users\_theSheep\Downloads\qlsv\qlsv\qlsv\obj\Debug\qlsv.pdb
+G:\qlsv\qlsv\qlsv\bin\Debug\qlsv.exe.config
+G:\qlsv\qlsv\qlsv\bin\Debug\qlsv.exe
+G:\qlsv\qlsv\qlsv\bin\Debug\qlsv.pdb
+G:\qlsv\qlsv\qlsv\bin\Debug\EntityFramework.dll
+G:\qlsv\qlsv\qlsv\bin\Debug\EntityFramework.SqlServer.dll
+G:\qlsv\qlsv\qlsv\bin\Debug\EntityFramework.xml
+G:\qlsv\qlsv\qlsv\bin\Debug\EntityFramework.SqlServer.xml
+G:\qlsv\qlsv\qlsv\obj\Debug\qlsv.csprojAssemblyReference.cache
+G:\qlsv\qlsv\qlsv\obj\Debug\qlsv.frmabout.resources
+G:\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmAddDa.resources
+G:\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmAddDoanSV.resources
+G:\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmAddGV.resources
+G:\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmAddSV.resources
+G:\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmAdduser.resources
+G:\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmChitietdoan.resources
+G:\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmChitietGV.resources
+G:\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmChitietsv.resources
+G:\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmDaSV.resources
+G:\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmInforDoan.resources
+G:\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmInforStudent.resources
+G:\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmInforTeacher.resources
+G:\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmKhoa_Nganh_Bomon.resources
+G:\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmKhoa_Nganh_Theloai.resources
+G:\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmLogin.resources
+G:\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmlop_khoa.resources
+G:\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmMain.resources
+G:\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmQLUser.resources
+G:\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmSearchDoan.resources
+G:\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmSearchGV.resources
+G:\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmSearchSV.resources
+G:\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmSuaUser.resources
+G:\qlsv\qlsv\qlsv\obj\Debug\qlsv.Properties.Resources.resources
+G:\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmSearchDaSv.resources
+G:\qlsv\qlsv\qlsv\obj\Debug\qlsv.csproj.GenerateResource.cache
+G:\qlsv\qlsv\qlsv\obj\Debug\qlsv.csproj.CoreCompileInputs.cache
+G:\qlsv\qlsv\qlsv\obj\Debug\qlsv.csproj.CopyComplete
+G:\qlsv\qlsv\qlsv\obj\Debug\qlsv.exe
+G:\qlsv\qlsv\qlsv\obj\Debug\qlsv.pdb
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\bin\Debug\qlsv.exe.config
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\bin\Debug\qlsv.exe
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\bin\Debug\qlsv.pdb
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\obj\Debug\qlsv.csprojAssemblyReference.cache
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\obj\Debug\qlsv.frmabout.resources
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmAddDa.resources
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmAddDoanSV.resources
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmAddGV.resources
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmAddSV.resources
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmAdduser.resources
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmChitietdoan.resources
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmChitietGV.resources
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmChitietsv.resources
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmDaSV.resources
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmInforDoan.resources
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmInforStudent.resources
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmInforTeacher.resources
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmKhoa_Nganh_Bomon.resources
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmKhoa_Nganh_Theloai.resources
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmLogin.resources
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmlop_khoa.resources
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmMain.resources
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmQLUser.resources
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmSearchDoan.resources
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmSearchGV.resources
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmSearchSV.resources
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmSuaUser.resources
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\obj\Debug\qlsv.Properties.Resources.resources
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\obj\Debug\qlsv.views.frmSearchDaSv.resources
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\obj\Debug\qlsv.csproj.GenerateResource.cache
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\obj\Debug\qlsv.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\obj\Debug\qlsv.csproj.CopyComplete
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\obj\Debug\qlsv.exe
+C:\Users\Admin\Downloads\qlsv\qlsv\qlsv\qlsv\obj\Debug\qlsv.pdb
